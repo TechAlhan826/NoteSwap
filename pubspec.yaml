@@ -67,4 +67,3 @@ flutter:
   - family: ClashDisplayVariable
     fonts:
       - asset: assets/fonts/ClashDisplay-Variable.ttf
-        weight: 100
