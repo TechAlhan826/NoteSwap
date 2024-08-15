@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:noteswap/screens/search_notes_screen.dart';
+import 'package:noteswap/screens/onboarding_intro_screen.dart';
+import 'package:noteswap/screens/onboarding_slides_screen.dart';
+import 'package:noteswap/screens/feed_screen.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -10,10 +13,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       title: 'Flutter Demo',
       home: SafeArea(
-        child: SearchNotesScreen(),
+        child: FeedScreen(), // Remove 'const' here
       ),
     );
   }

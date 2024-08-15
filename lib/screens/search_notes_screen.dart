@@ -33,7 +33,7 @@ class _SearchNotesScreenState extends State<SearchNotesScreen> {
                 'NoteSwap',
                 textAlign: TextAlign.center,
                 style: TextStyle(
-                    fontFamily: 'ClashDisplayVariable', color: Colors.white),
+                     color: Colors.white),
               ),
             ),
             leading: IconButton(
@@ -61,7 +61,7 @@ class _SearchNotesScreenState extends State<SearchNotesScreen> {
                 decoration: InputDecoration(
                   hintText: 'Search',
                   hintStyle: const TextStyle(
-                      fontFamily: 'ClashDisplayVariable',
+                      
                       color: Color.fromARGB(255, 79, 79, 79)),
                   prefixIcon: const Icon(Icons.search,
                       color: Color.fromARGB(255, 79, 79, 79)),
@@ -96,7 +96,7 @@ class _SearchNotesScreenState extends State<SearchNotesScreen> {
                               const Text(
                                 'CSE 2005',
                                 style: TextStyle(
-                                  fontFamily: 'ClashDisplayVariable',
+                                  
                                   fontSize: 16,
                                   color: Colors.white, // Updated to white
                                 ),
@@ -112,7 +112,7 @@ class _SearchNotesScreenState extends State<SearchNotesScreen> {
                                 child: const Text(
                                   'SCOPE',
                                   style: TextStyle(
-                                    fontFamily: 'ClashDisplayVariable',
+                                    
                                     color: Colors.black,
                                     fontSize: 12,
                                   ),
@@ -122,7 +122,7 @@ class _SearchNotesScreenState extends State<SearchNotesScreen> {
                           ),
                           const Text(
                             'Computation of Mathematics',
-                            style: TextStyle(fontFamily: 'ClashDisplayVariable',
+                            style: TextStyle(
                               color: Colors.white,
                               fontSize: 22,
                             ), // Updated to white
